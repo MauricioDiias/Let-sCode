@@ -1,0 +1,10 @@
+h1{
+    color: rgb(29, 119, 29);
+    font-size: 5em;
+    font-family: 'Poppins';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
