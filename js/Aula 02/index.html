@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operações Com Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="containerSoma">
+      <h1>Somando Números</h1>
+      <input type="number" placeholder="Digite um número" id="valor1" />
+      +
+      <input type="number" placeholder="Digite um número" id="valor2" />
+      <button id="somar" onclick="somarDoisNumeros()">=</button>
+      <div id="resultadoSoma"></div>
+    </div>
+
+    <div class="contadorClicks">
+      <h1>Contador de Clicks</h1>
+
+      <div class="digito" id="resultado">0</div>
+      <div class="btnDigit">
+
+          <button onclick="resert()">Reiniciar</button>
+          <button onclick="contar()">+</button>
+        </div>
+    </div>
+  </body>
+</html>
