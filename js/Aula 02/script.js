@@ -4,6 +4,7 @@ function somarDoisNumeros() {
   let valor2 = document.getElementById("valor2").value;
   let resultado = document.getElementById("resultadoSoma");
   
+
   resultado.innerHTML = Number(valor1) + Number(valor2);
 }
 
@@ -19,3 +20,6 @@ function resert(){
   cont = 0;
   
 }
+
+
+
