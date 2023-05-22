@@ -17,3 +17,4 @@ btnMudaCor.addEventListener("click", () => {
     alert("Cor de fundo foi alterada!");
   }, 250);
 });
+

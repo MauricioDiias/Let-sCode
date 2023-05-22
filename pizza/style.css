@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  label, input[type="text"], textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select, input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #pedidos {
+    margin-top: 20px;
+  }
+  
+  #pedidos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #pedidos li {
+    margin-bottom: 10px
+  }
